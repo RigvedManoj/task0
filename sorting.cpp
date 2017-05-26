@@ -1,3 +1,4 @@
+//Manoj 108116071
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -29,4 +30,4 @@ int main()
 	cout<<a[k]<<endl;
     }
     getch();
-}//Manoj 108116071
+}
