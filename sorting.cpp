@@ -29,4 +29,4 @@ int main()
 	cout<<a[k]<<endl;
     }
     getch();
-}
+}//Manoj 108116071
