@@ -6,13 +6,13 @@
 using namespace std;
 int main()
 {
-    int a[16], i, j, k, temp;
+    int a[10], i, j, k, temp;
     cout<<"enter the elements\n";
-    for (i = 0; i < 16; i++)
+    for (i = 0; i < 10; i++)
     {
         cin>>a[i];
     }
-    for (i = 1; i < 16; i++)
+    for (i = 1; i < 10; i++)
     {
         for (j = i; j >= 1; j--)
         {
@@ -27,7 +27,7 @@ int main()
         }
     }
     cout<<"sorted array\n"<<endl;
-    for (k = 0; k < 16; k++)
+    for (k = 0; k < 10; k++)
     {
 	cout<<a[k]<<endl;
     }
